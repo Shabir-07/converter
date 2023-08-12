@@ -1,0 +1,71 @@
+body {
+  padding: 10px 20px;
+  background-color: rgb(223, 213, 202);
+}
+h1 {
+  text-align: center;
+  color: rgb(20, 44, 53);
+}
+.result-input-container {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: dashed 5px rgb(252, 253, 255);
+}
+.input-container {
+ display: flex;
+ width: 50%;
+ flex-direction: column;
+ flex: 100px 100px;
+ row-gap: 15px;
+ background-color: rgb(202, 191, 176);
+ padding: 10px;
+}
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: rgb(214, 202, 187);
+}
+input {
+  width: 70%;
+  font-size: 18px;
+  padding: 4px 8px;
+  border: solid 3px rgb(184, 163, 163);
+}
+.input-box, .input-box2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(71, 53, 30);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 1%;
+  margin-top: 40px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: solid 4px wheat;
+  cursor: pointer;
+}
+.convert-button {
+  background-color: rgb(220, 182, 94);
+  margin-right: 5px;
+}
+.clear-button {
+  background-color: rgb(61, 239, 162);
+}
+button:hover {
+  opacity: 0.4;
+  transition: 1.5s;
+  color: rgb(73, 70, 70);
+}
+p {
+ font-size: 125%;
+}

@@ -1,0 +1,47 @@
+.light-button {
+ background-color: white;
+ color: black;
+ border: solid black 4px;
+}
+.dark-button {
+  background-color: black;
+  border: solid white 4px;
+}
+.header1 {
+  color: White;
+}
+.result-input-container-dark {
+  border: dashed 5px rgb(173, 182, 203);
+}
+.input-container-dark {
+  background-color: rgb(47, 61, 116);
+}
+.result-container-dark {
+  background-color: rgb(48, 74, 110) ;
+}
+.result-text {
+  color: white;
+}
+.convert-button-dark{
+  color: wheat;
+  background-color: rgb(5, 6, 79);
+}
+.clear-button-dark {
+  background-color: rgb(42, 9, 103);
+  color: white;
+}
+.clear-button-dark:hover, .convert-button-dark:hover {
+  color: darkblue;
+  background-color: aquamarine;
+}
+.input-dark {
+  background-color: rgb(171, 159, 231);
+  color: white;
+  border: solid 3px white;  
+}
+.input-dark::placeholder{
+  color: white;
+}
+.input-box-dark {
+  color: white;
+}
